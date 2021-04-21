@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#container {
+    width: 900px;
+    height: 700px;
+    margin: 0;
+    display: flex;
+    background: #000000;
+    flex-direction: column;
+    color: #ffffff;
+    padding: 20px;
+    overflow: scroll;
+}
+h2 {
+    text-align: center;
+}
+label{
+    font-size: large;
+
+}
+
+input[type="text"] {
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    width: 400px;
+    font-size: large;
+    
+}
+
+input:focus {
+    outline: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+li {
+    padding-left: 1.3em;
+    padding-top: 10px;
+}
+li:before {
+    content: ">";
+    display: inline-block;
+    margin-left: -1.3em;
+    width: 1.3em;
+    color: red;
+}
